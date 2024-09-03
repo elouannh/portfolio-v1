@@ -1,0 +1,221 @@
+@-webkit-keyframes home-catch-flicker-entrance {
+  0% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  20% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  20.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  20.5% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  20.6% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  30% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  30.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  30.5% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  30.6% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  40% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  45.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  55% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  55.1% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  57% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  57.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  60% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  60.1% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  65% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  65.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  75% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  75.1% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  77% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  77.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  85% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  85.1% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  86% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  86.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+}
+
+@keyframes home-catch-flicker-entrance {
+  0% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  20% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  20.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  20.5% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  20.6% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  30% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  30.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  30.5% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  30.6% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  40% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  45.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  55% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  55.1% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  57% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  57.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  60% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  60.1% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  65% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  65.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  75% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  75.1% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  77% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  77.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  85% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+  85.1% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  86% {
+    color: var(--home-intro-label-catchphrase-color-off);
+    text-shadow: none;
+  }
+  86.1% {
+    color: var(--home-intro-label-catchphrase-color);
+    text-shadow: 0 0 30px var(--home-intro-label-catchphrase-tshadow);
+  }
+}

@@ -24,19 +24,16 @@ const fixedHeaderElements: Ref<{ href: string, label: string }[]> = ref([
 <style scoped lang="scss">
 .navbar {
   position: fixed;
-  width: fit-content;
-  padding: 3vh 5vw;
-  top: 20px;
+  width: 100%;
+  padding: 30px 0;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
+  background: var(--fixed-header-bg);
   justify-content: center;
-  background: rgba(93,93,93, 0.5);
-  background: linear-gradient(156deg, rgba(93,93,93,0.5) 0%, rgba(47,47,47,0.5) 100%);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  border-radius: 5vw;
-  border: white 2px solid;
+  border: var(--fixed-header-border-color) 2px solid;
 
   .header-ul {
     display: flex;

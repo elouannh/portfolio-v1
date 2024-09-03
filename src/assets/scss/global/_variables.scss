@@ -1,0 +1,16 @@
+:root {
+  --fixed-header-bg: transparent;
+
+  --fixed-header-elt-color: white;
+  --fixed-header-elt-color-hover: rgb(218, 202, 255);
+  --fixed-header-elt-tshadow-hover: rgb(120, 52, 255);
+  --fixed-header-elt-undl-bg: white;
+  --fixed-header-elt-undl-after-bg: rgb(218, 202, 255);
+  --fixed-header-elt-undl-after-shadow: rgb(218, 202, 255);
+
+  --home-intro-bg: black;
+  --home-intro-label-title-color: white;
+  --home-intro-label-catchphrase-color: rgb(218, 202, 255);
+  --home-intro-label-catchphrase-color-off: rgb(49, 47, 52);
+  --home-intro-label-catchphrase-tshadow: rgb(120, 52, 255);
+}

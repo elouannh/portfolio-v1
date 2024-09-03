@@ -1,11 +1,13 @@
 <script setup lang="ts">
 
 import FixedHeader from '@/components/header/FixedHeader.vue'
+import HomeIntroductionLabel from '@/components/home/HomeIntroductionLabel.vue'
 </script>
 
 <template>
   <main class="main">
     <fixed-header/>
+    <home-introduction-label/>
   </main>
 </template>
 
@@ -13,7 +15,7 @@ import FixedHeader from '@/components/header/FixedHeader.vue'
 .main {
   width: 100vw;
   height: 100vh;
-  background: black;
+  background: var(--home-intro-bg);
   overflow: hidden;
 }
 </style>

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 import HomeIntroduction from '@/components/home/HomeIntroduction.vue'
 </script>
 
@@ -8,5 +7,4 @@ import HomeIntroduction from '@/components/home/HomeIntroduction.vue'
 </template>
 
 <style scoped lang="scss">
-
 </style>

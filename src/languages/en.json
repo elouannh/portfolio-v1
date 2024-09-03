@@ -4,5 +4,9 @@
     "skillsAndProjects": "Skills & Projects",
     "hireMe": "Hire Me",
     "special": "Special"
+  },
+  "home": {
+    "label": "Elouann",
+    "catchphrase": "Coding with a purpose, creating with intent."
   }
 }
