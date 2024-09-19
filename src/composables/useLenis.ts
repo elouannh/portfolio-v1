@@ -2,17 +2,17 @@ import { onMounted, onUnmounted } from 'vue';
 import Lenis from 'lenis';
 
 export function useLenis() {
-  let lenis;
+  let lenis: any;
 
   onMounted((): void => {
     lenis = new Lenis({
       duration: 1.2,
       easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      smooth: true,
-      direction: 'vertical',
+      orientation: 'vertical',
+      smoothWheel: true
     });
 
-    const raf = (time): void => {
+    const raf = (time: number): void => {
       lenis.raf(time);
       requestAnimationFrame(raf);
     };
@@ -22,7 +22,7 @@ export function useLenis() {
 
   onUnmounted(() => lenis.destroy());
 
-  const scrollTo = (target, options = {}): void => {
+  const scrollTo = (target: EventTarget, options = {}): void => {
     if (lenis) lenis.scrollTo(target, options);
   };
 

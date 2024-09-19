@@ -19,7 +19,7 @@ export default function (
   ctx.clearRect(0, 0, width, height);
   ctx.fillStyle = 'var(--home-intro-bg);';
 
-  const stars: StarContent[];
+  const stars: StarContent[] = [];
   let [x, y]: [number, number] = [0, 0];
   let spawnCoords: StarProps;
   let coords: StarContent;
@@ -29,7 +29,6 @@ export default function (
       x = 0;
     }
     while (stars.length < density * 10) {
-
     }
     spawnCoords = {
       x: Math.random() * (width / density) + (x * width / density),

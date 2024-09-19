@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { type Ref, ref } from 'vue'
 
 const canvas = ref(null);
-const width: number = ref(window.innerWidth);
-const height: number = ref(window.innerHeight);
+const width: Ref<number> = ref(window.innerWidth);
+const height: Ref<number> = ref(window.innerHeight);
 </script>
 
 <template>
