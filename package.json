@@ -16,6 +16,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@vue/language-server": "^2.1.6",
     "gsap": "^3.12.5",
     "lenis": "^1.1.13",
     "pinia": "^2.1.7",
